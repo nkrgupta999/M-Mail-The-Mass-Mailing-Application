@@ -59,24 +59,27 @@ Upon completion, the **Mass Mailing Application** will provide:
 ## Technology Stack
 - **Frontend**: Streamlit (Python)
 - **Backend**: Python, Email APIs (Gmail, Outlook)
-- **Database**: SQLite or PostgreSQL (for contact and email management)
+- **Database**: MySQL (for contact management, email management and User Management)
 - **Others**: SMTP Integration for email sending
 
 ## How to Run the Application
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mass-mailing-app.git
+   git clone https://github.com/nkrgupta999/M-Mail-The-Mass-Mailing-Application.git
 2. Install dependencies:
     ```bash
     pip install -r requirements.txt
 3. Run the application:
     ```bash
     streamlit run app.py
-
 ## Future Enhancements
 - **Scheduled Emails**: Add support for scheduling email campaigns.
 - **Email Attachments**: Enable attachment support in bulk emails.
 - **Additional Integrations**: Add more email service providers beyond Gmail and Outlook.
+
+## Output / Screenshot
+- All Screenshot are avialable in the Output folder
+- Link : https://github.com/nkrgupta999/M-Mail-The-Mass-Mailing-Application/tree/main/Output
 
 ## Disclaimer
 Please note that the information contained in this repository is provided for informational purposes only. We make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the information contained in this repository for any purpose. Any reliance on such information is therefore strictly at your own risk.
