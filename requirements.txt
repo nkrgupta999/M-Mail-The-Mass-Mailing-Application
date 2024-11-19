@@ -1,34 +1,17 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import plotly.express as px
-import base64
-import logging
-import schedule
-import time
-import threading
-import datetime
-import pickle
-import os
-import pymysql
-import webbrowser
-from datetime import datetime
-import json
-import os
-import msal
-from google_auth_oauthlib.flow import Flow, InstalledAppFlow
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
-from google.auth.transport.requests import Request
-from click import option
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from Google import Create_Service
-from Outlookemail import sendOutlook
-from gmail_template import gmail_template
-from outlook_template import outlook_template
-from dbfunction import save_email_to_db
-from dbfunction import fetch_emails_from_db
-from dbfunction import delete_email_from_db
-from dbfunction import update_email_in_db
-from dbfunction import clear_email_db
-from showlog import show_log_details
+streamlit
+pandas 
+matplotlib.pyplot
+plotly.express
+base64
+logging
+schedule
+time
+threading
+datetime
+pickle
+os
+pymysql
+webbrowser
+json
+os
+msal
