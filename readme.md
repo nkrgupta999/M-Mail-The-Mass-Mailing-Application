@@ -37,12 +37,24 @@ Upon completion, the **Mass Mailing Application** will provide:
    - Provide a manageable template to the application in the Gmail template.
 
 6. **Outlook Template for easily access**
-- Create an Outlook template for easy access to the application.
-- Provide a manageable template to the application in the Outlook template.
+   - Create an Outlook template for easy access to the application.
+   - Provide a manageable template to the application in the Outlook template.
 
 7. **Integration with Gmail and Outlook**
-- Integrate the application with Gmail and Outlook for seamless email sending.
-- Ensure secure and reliable integration for both services.
+   - Integrate the application with Gmail and Outlook for seamless email sending.
+   - Ensure secure and reliable integration for both services.
+
+8. **Log details**
+   - Log all the details of the application for future reference.
+   - Provide a log for the application in the dashboard.
+
+9. **Email Scheduled**
+   - Schedule emails to be sent at a later time.
+   - Provide a feature to schedule emails in the application.
+
+10. **Email Tracking**
+    - Track emails sent and provide a report on the emails sent.
+    - Provide a feature to track emails in the application.
 
 ## Technology Stack
 - **Frontend**: Streamlit (Python)
